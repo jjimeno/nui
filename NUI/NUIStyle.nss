@@ -140,3 +140,6 @@ View {
     background-color: @primaryBackgroundColor;
     background-image: NUIViewBackground.png;
 }
+ImageView{
+    tint-color: #FF0000;
+}
