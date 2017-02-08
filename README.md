@@ -506,6 +506,9 @@ See SegmentedControl
 * row-height *(Number)*
 * separator-color *(Color)*
 * separator-style *(SeparatorStyle)*
+* border-color *(Color)*
+* border-width *(Number)*
+* corner-radius *(Number)*
 
 #### TableCell
 
@@ -599,6 +602,12 @@ The detail label of a *UITableViewCell*
 * padding *(Box)*
 * keyboard-appearance *(KeyboardAppearance)*
 * *all other attributes supported by UIView*
+
+#### ImageView
+
+*UIImageView*
+
+* tint-color *(Color)*
 
 #### View
 
