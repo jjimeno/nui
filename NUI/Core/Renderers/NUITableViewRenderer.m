@@ -7,6 +7,7 @@
 //
 
 #import "NUITableViewRenderer.h"
+#import "NUIViewRenderer.h"
 
 @implementation NUITableViewRenderer
 
@@ -27,7 +28,9 @@
         [tableView setRowHeight:[NUISettings getFloat:@"row-height" withClass:className]];
     }
     
-    [self renderSizeDependentProperties:tableView withClass:(NSString*)className];
+    [self renderSizeDependentProperties:tableView withClass:className];
+    [NUIViewRenderer renderBorder:tableView withClass:className];
+    
 }
 
 + (void)sizeDidChange:(UITableView*)tableView

@@ -115,6 +115,12 @@ TableCell {
     font-name: @secondaryFontNameBold;
     font-size: 17;
 }
+Table
+{
+    border-color: @primaryBorderColor;
+    border-width: @primaryBorderWidth;
+    corner-radius: 7;
+}
 TableCellDetail {
     font-name: @secondaryFontName;
     font-size: 14;
